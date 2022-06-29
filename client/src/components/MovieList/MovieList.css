@@ -1,0 +1,27 @@
+.movie-app > .row {
+	overflow-x: auto;
+	flex-wrap: nowrap;
+	color: #ffffff;
+}
+
+.container-fluid {
+	padding: 2.5rem;
+	background-color: currentcolor;
+}
+
+.search {
+    margin-bottom: 1rem;
+    width: 32vw;
+    border-radius: 9px;
+	border-style: none !important;
+	background-color: brown;
+	color: #ffffff;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    height: 48vh;
+    color: #000;
+    box-shadow: 2px 2px brown;
+}

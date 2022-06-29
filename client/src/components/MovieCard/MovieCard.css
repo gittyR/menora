@@ -1,0 +1,36 @@
+.image {
+    max-width: 12vw;
+    height: 30vh;
+    object-fit: fill;
+    align-self: center;
+}
+
+.movie-title {
+    display: block;
+    font-size: 14px;
+}
+
+.card-rating {
+    background: #141414;
+    color: white;
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    top: 0;
+}
+
+.star {
+    font-size: 14px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+    .image {
+        max-width: 100%;
+    }
+  }
